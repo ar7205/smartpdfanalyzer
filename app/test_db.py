@@ -1,0 +1,12 @@
+from app.db import get_connection
+
+conn = get_connection()
+cursor = conn.cursor()
+
+cursor.execute("SELECT version();")
+result = cursor.fetchone()
+
+print("PostgreSQL version:", result)
+
+cursor.close()
+conn.close()
