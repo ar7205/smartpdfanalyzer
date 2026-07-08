@@ -146,17 +146,7 @@ http://localhost:8501
 
 ---
 
-## 📸 Demo
 
-Add screenshots of:
-
-- 🏠 Home Page
-- 📄 PDF Upload
-- 📊 Document Insights
-- 💬 Chat Interface
-- 🤖 AI Response
-
----
 
 ## 🎯 Future Improvements
 
